@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.voucher.manage2.tkmapper.mapper.UserMapper">
+  <resultMap id="BaseResultMap" type="com.voucher.manage2.tkmapper.entity.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="UserNo" jdbcType="VARCHAR" property="userno" />
+    <id column="BelongUnit" jdbcType="VARCHAR" property="belongunit" />
+    <result column="GUID" jdbcType="VARCHAR" property="guid" />
+    <result column="UserName" jdbcType="VARCHAR" property="username" />
+    <result column="Pwd" jdbcType="VARCHAR" property="pwd" />
+    <result column="RoleGUID" jdbcType="VARCHAR" property="roleguid" />
+    <result column="RoleName" jdbcType="VARCHAR" property="rolename" />
+    <result column="ViewCondition" jdbcType="VARCHAR" property="viewcondition" />
+  </resultMap>
+</mapper>

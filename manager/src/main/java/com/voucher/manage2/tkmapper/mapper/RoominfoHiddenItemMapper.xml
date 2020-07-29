@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.voucher.manage2.tkmapper.mapper.RoominfoHiddenItemMapper">
+  <resultMap id="BaseResultMap" type="com.voucher.manage2.tkmapper.entity.RoominfoHiddenItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="guid" jdbcType="VARCHAR" property="guid" />
+    <result column="fire_extinguisher" jdbcType="INTEGER" property="fireExtinguisher" />
+    <result column="fire_aging" jdbcType="INTEGER" property="fireAging" />
+    <result column="high_power" jdbcType="INTEGER" property="highPower" />
+    <result column="blow" jdbcType="INTEGER" property="blow" />
+    <result column="line_aging" jdbcType="INTEGER" property="lineAging" />
+    <result column="wire_chaos" jdbcType="INTEGER" property="wireChaos" />
+    <result column="valve_aging" jdbcType="INTEGER" property="valveAging" />
+    <result column="other_fire_hazards" jdbcType="INTEGER" property="otherFireHazards" />
+    <result column="incline" jdbcType="INTEGER" property="incline" />
+    <result column="split" jdbcType="INTEGER" property="split" />
+    <result column="break_off" jdbcType="INTEGER" property="breakOff" />
+    <result column="destroy" jdbcType="INTEGER" property="destroy" />
+    <result column="invalidation" jdbcType="INTEGER" property="invalidation" />
+    <result column="collapse" jdbcType="INTEGER" property="collapse" />
+    <result column="flaw" jdbcType="INTEGER" property="flaw" />
+    <result column="cesspool" jdbcType="INTEGER" property="cesspool" />
+    <result column="wall_up" jdbcType="INTEGER" property="wallUp" />
+    <result column="secure_channel" jdbcType="INTEGER" property="secureChannel" />
+    <result column="warning_missing" jdbcType="INTEGER" property="warningMissing" />
+    <result column="handrail_destroy" jdbcType="INTEGER" property="handrailDestroy" />
+    <result column="other_supporting" jdbcType="INTEGER" property="otherSupporting" />
+    <result column="flooding" jdbcType="INTEGER" property="flooding" />
+    <result column="coast" jdbcType="INTEGER" property="coast" />
+    <result column="earthquake" jdbcType="INTEGER" property="earthquake" />
+    <result column="down" jdbcType="INTEGER" property="down" />
+    <result column="snow" jdbcType="INTEGER" property="snow" />
+    <result column="other_natural" jdbcType="INTEGER" property="otherNatural" />
+    <result column="illegal_building" jdbcType="INTEGER" property="illegalBuilding" />
+    <result column="structural_failure" jdbcType="INTEGER" property="structuralFailure" />
+    <result column="other_illegal" jdbcType="INTEGER" property="otherIllegal" />
+    <result column="is_other" jdbcType="INTEGER" property="isOther" />
+    <result column="other" jdbcType="CLOB" property="other" />
+  </resultMap>
+</mapper>

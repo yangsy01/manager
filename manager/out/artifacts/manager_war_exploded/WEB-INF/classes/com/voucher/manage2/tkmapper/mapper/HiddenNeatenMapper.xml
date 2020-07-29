@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.voucher.manage2.tkmapper.mapper.HiddenNeatenMapper">
+  <resultMap id="BaseResultMap" type="com.voucher.manage2.tkmapper.entity.HiddenNeaten">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="GUID" jdbcType="VARCHAR" property="guid" />
+    <result column="exist" jdbcType="INTEGER" property="exist" />
+    <result column="neaten_id" jdbcType="VARCHAR" property="neatenId" />
+    <result column="neaten_name" jdbcType="VARCHAR" property="neatenName" />
+    <result column="principal" jdbcType="VARCHAR" property="principal" />
+    <result column="happen_time" jdbcType="TIMESTAMP" property="happenTime" />
+    <result column="neaten_item" jdbcType="VARCHAR" property="neatenItem" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="date" jdbcType="TIMESTAMP" property="date" />
+    <result column="campusAdmin" jdbcType="VARCHAR" property="campusadmin" />
+    <result column="UserName" jdbcType="VARCHAR" property="username" />
+    <result column="terminal" jdbcType="VARCHAR" property="terminal" />
+    <result column="progress" jdbcType="VARCHAR" property="progress" />
+    <result column="is_repair" jdbcType="INTEGER" property="isRepair" />
+    <result column="RoomGUID" jdbcType="VARCHAR" property="roomguid" />
+    <result column="Area" jdbcType="DOUBLE" property="area" />
+    <result column="Type" jdbcType="VARCHAR" property="type" />
+    <result column="AmountTotal" jdbcType="DOUBLE" property="amounttotal" />
+    <result column="Amount" jdbcType="DOUBLE" property="amount" />
+    <result column="AuditingAmount" jdbcType="DOUBLE" property="auditingamount" />
+    <result column="WorkUnit" jdbcType="VARCHAR" property="workunit" />
+    <result column="AvailabeLength" jdbcType="VARCHAR" property="availabelength" />
+    <result column="processInstance_id" jdbcType="VARCHAR" property="processinstanceId" />
+    <result column="check_circs" jdbcType="CLOB" property="checkCircs" />
+    <result column="neaten_instance" jdbcType="CLOB" property="neatenInstance" />
+    <result column="remark" jdbcType="CLOB" property="remark" />
+  </resultMap>
+</mapper>

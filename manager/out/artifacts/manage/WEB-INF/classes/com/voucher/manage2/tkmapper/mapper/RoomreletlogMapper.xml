@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.voucher.manage2.tkmapper.mapper.RoomreletlogMapper">
+  <resultMap id="BaseResultMap" type="com.voucher.manage2.tkmapper.entity.Roomreletlog">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="GUID" jdbcType="VARCHAR" property="guid" />
+    <result column="RoomAddress" jdbcType="VARCHAR" property="roomaddress" />
+    <result column="RoomCount" jdbcType="INTEGER" property="roomcount" />
+    <result column="Charter" jdbcType="VARCHAR" property="charter" />
+    <result column="Area" jdbcType="DOUBLE" property="area" />
+    <result column="Years" jdbcType="INTEGER" property="years" />
+    <result column="OHire" jdbcType="DOUBLE" property="ohire" />
+    <result column="OChartCriterion" jdbcType="DOUBLE" property="ochartcriterion" />
+    <result column="OContractNo" jdbcType="VARCHAR" property="ocontractno" />
+    <result column="OConcludeDate" jdbcType="TIMESTAMP" property="oconcludedate" />
+    <result column="OChartBeginDate" jdbcType="TIMESTAMP" property="ochartbegindate" />
+    <result column="OChartEndDate" jdbcType="TIMESTAMP" property="ochartenddate" />
+    <result column="NHire" jdbcType="DOUBLE" property="nhire" />
+    <result column="NChartCriterion" jdbcType="DOUBLE" property="nchartcriterion" />
+    <result column="NContractNo" jdbcType="VARCHAR" property="ncontractno" />
+    <result column="NConcludeDate" jdbcType="TIMESTAMP" property="nconcludedate" />
+    <result column="NChartBeginDate" jdbcType="TIMESTAMP" property="nchartbegindate" />
+    <result column="NChartEndDate" jdbcType="TIMESTAMP" property="nchartenddate" />
+    <result column="Region" jdbcType="VARCHAR" property="region" />
+    <result column="ManageRegion" jdbcType="VARCHAR" property="manageregion" />
+    <result column="RoomProperty" jdbcType="VARCHAR" property="roomproperty" />
+    <result column="Useful" jdbcType="VARCHAR" property="useful" />
+    <result column="OriginalUnit" jdbcType="VARCHAR" property="originalunit" />
+    <result column="BelongUnit" jdbcType="VARCHAR" property="belongunit" />
+    <result column="OptDate" jdbcType="TIMESTAMP" property="optdate" />
+    <result column="Operator" jdbcType="VARCHAR" property="operator" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,24 @@
+1、版本号位置	Tomcat \webapps\manage\WEB-INF\classes\version.properties
+	打开文件：
+	version= V10.1.01_release 	---	V10.1.01_release换为你需要的版本号
+	SERVER_URL=http://39.98.203.146		---	39.98.203.146换为你需要的服务器的 ip+端口	端口为80时则不用加端口
+	
+2、数据库位置	Tomcat\webapps\manage\WEB-INF\classes\jdbc.properties
+	打开文件：
+	sql_url=jdbc:jtds:sqlserver://39.98.203.146:2033/RoomManage	---	将39.98.203.146:2033/RoomManage换为你需要的数据库的ip+端口+数据库名
+	sql_username=sa		---	sa换为你需要的数据库账号
+	sql_password=Fhc123456		---	Fhc123456换为你需要的数据库密码
+
+3、报表原文件存放位置：将manage-upload整个放到D盘根目录
+
+4、jacob-1.17-M2-x64.dll ： 该 dll文件 放在 \JDK\bin下面
+
+5、dist、manage包解压后放在Tomcat\webapps\下
+
+6、服务器需要装office或者wps，但是该版本必须自带word转pdf特性
+
+7、tomcat下的conf的server.xml中 host中添加这一行：
+		<Context path="/file" docBase="D:\manage-upload"></Context>
+		<Context path="/file1" docBase="D:\PIC"></Context>		//PIC为存放资产图片的地址
+
+8、dist改ip地址请联系前端人员

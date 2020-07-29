@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7daf7644-b3cb-4a7c-a55c-efd48c7ec685" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/manager/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/.idea/artifacts/manager_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/.idea/artifacts/manager_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/.idea/manager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/.settings/org.hibernate.eclipse.console.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/aop/interceptor/ProcessInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/aop/interceptor/TimeConsumeInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/aop/interceptor/annotation/TimeConsume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/base/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/base/RestResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/base/SystemCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/cache/SystemCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/constant/FileConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/constant/MenuConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/constant/ResultConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/constant/RoomConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/constant/RoomLogConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/constant/SystemConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/controller/AllDetailsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/controller/AssetsConditionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/controller/DataAnalysisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/controller/FinancialConController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/controller/OperateConController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/controller/RentConController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/controller/SecurityConController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/controller/VersionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/controller/WordToPdfController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/ChartInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/CountAndSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/EntityDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/KeyDateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/KeyObjDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/KeyVCountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/KeyVListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/KeyVStringDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/KeyValueDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/MenuDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/RoomInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/SysModelDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/SysRoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/SysRouterDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/SysUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/details/BasicFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/details/NowDanger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/details/Repair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/details/RoomCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/details/RoomCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/details/SafeCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/details/TopMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/details/hire/Deducted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/details/hire/MarginPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/details/hire/Nonpayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/details/hire/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/details/useful/AllDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/details/useful/Basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/details/useful/Equities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/details/useful/Finance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/details/useful/Manage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/hireList/HireListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/page/Pagefenye.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/roomInfo/AddressAndHireDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/roomInfo/ChartInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/dto/roomInfo/RoomInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/AllDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/AssetsConditionBarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/AssetsConditionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/AssetsDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/DataAnalysisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/FinancialConditionBarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/FinancialConditionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/FinancialDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/OperateConditionBarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/OperateConditionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/OperateDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/RentConditionBarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/RentConditionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/RentDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/ReplaceKeywordsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/RoomImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/SecurityConditionBarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/SecurityConditionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/SecurityDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/StatementFiveService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/StatementFourService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/StatementOneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/StatementThreeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/StatementTwoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/SysService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/WordToPdfService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/AllDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/AssetsConditionServiceBarImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/AssetsConditionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/AssetsDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/DataAnalysisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/FinancialConditionServiceBarImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/FinancialConditionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/FinancialDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/OperateConditionServiceBarImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/OperateConditionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/OperateDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/RentConditionServiceBarImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/RentConditionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/RentDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/ReplaceKeywordsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/RoomImageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/SecurityConditionServiceBarImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/SecurityConditionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/SecurityDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/StatementFiveServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/StatementFourServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/StatementOneServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/StatementThreeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/StatementTwoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/service/impl/WordToPdfServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/springconfig/FastJsonHttpMessageConverterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/task/DeleteOnTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/DoGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/MyCommentGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/AssetsCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/AssetsCheckDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/ChartInfoPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/Chartinfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/Classicquery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/Datadictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/Fileselfbelong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/HiddenCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/HiddenCheckDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/HiddenNeaten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/Hirelist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/Hirepay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/RentObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/RoomFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/RoomIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/RoomLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/RoomOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/Roomassetsaccounting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/Roomassetsledger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/Roomchangehirelog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/Roomexitlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/Roominfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/RoominfoHiddenItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/Roomreletlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/Roomrepairlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/Select.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/SysModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/SysModelUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/SysRoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/SysRoleModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/SysRoleRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/SysRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/SysUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/SysUserCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/SysUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/TableAlias.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/UploadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/AssetsCheckDateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/AssetsCheckDateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/AssetsCheckMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/AssetsCheckMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/ChartinfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/ChartinfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/ClassicqueryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/ClassicqueryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/CompanyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/CompanyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/DatadictionaryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/DatadictionaryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/FileselfbelongMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/FileselfbelongMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/HiddenCheckDateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/HiddenCheckDateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/HiddenCheckMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/HiddenCheckMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/HiddenNeatenMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/HiddenNeatenMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/HirelistMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/HirelistMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/HirepayMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/HirepayMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomFileMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomFileMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomInMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomInMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomOutMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomOutMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomassetsaccountingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomassetsaccountingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomassetsledgerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomassetsledgerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomchangehirelogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomchangehirelogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomexitlogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomexitlogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoominfoHiddenItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoominfoHiddenItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoominfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoominfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomreletlogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomreletlogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomrepairlogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/RoomrepairlogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SelectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SelectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysModelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysModelMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysModelUrlMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysModelUrlMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysRoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysRoleModelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysRoleModelMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysRoleRouterMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysRoleRouterMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysRouterMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysRouterMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysUrlMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysUrlMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysUserConditionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysUserConditionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysUserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/SysUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/TableAliasMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/TableAliasMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/UploadFileMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/UploadFileMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/state/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/tkmapper/state/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/utils/CommonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/utils/DistinctUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/utils/DoubleUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/utils/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/utils/HistogramUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/utils/ListUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/utils/MapUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/utils/ObjectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/utils/PropertiesUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/utils/SessionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/utils/SpringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/utils/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/utils/ThreadUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/utils/TimeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/utils/UpdateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/utils/WordTemplateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/utils/WordToP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/java/com/voucher/manage2/utils/WordToPDF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/resources/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/resources/generatorConfig-sqlserver.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/resources/mbgConfiguration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/resources/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/resources/sping-aop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/resources/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/resources/spring-redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/resources/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/resources/spring-sqlservers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/resources/spring-tkmybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/resources/version.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/bootstrap-datepicker.zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/bootstrap-editable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/bootstrap-switch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/bootstrap-table-editable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/bootstrap-table-editable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/bootstrap-table-export.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/bootstrap-table-export.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/bootstrap-table-zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/bootstrap-table.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/comet4j.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/customize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/docs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/flotr2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/ga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/highcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/ie-emulation-modes-warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/ie10-viewport-bug-workaround.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/ie8-responsive-file-warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/jQuery.md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/jquery-1.7.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/jquery-weui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/previewImage.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/sidenav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/sign.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/tableExport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/js/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/main/webapp/部署说明.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/test/java/manage2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/test/java/sometest/ShoppingBasket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/test/java/sometest/UpdateState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/test/test.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/manager" />
+  </component>
+  <component name="ProjectId" id="1eyYB1aFVWIZTBdvpdDsuFizqci" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_Bi" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58955" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7daf7644-b3cb-4a7c-a55c-efd48c7ec685" name="Default Changelist" comment="" />
+      <created>1595295160865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595295160865</updated>
+      <workItem from="1595295162637" duration="2367000" />
+      <workItem from="1595473823794" duration="1360000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="803" y="207" key="#Web_Browsers" timestamp="1595302700527">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="803" y="207" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1595302700527" />
+    <state x="665" y="188" width="1092" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595302707676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="665" y="188" width="1092" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595302707676" />
+    <state x="696" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1595302590849">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="696" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595302590849" />
+    <state x="803" y="207" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1595302687811">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="803" y="207" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1595302687811" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1595473974537">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595473974537" />
+  </component>
+</project>

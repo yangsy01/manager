@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.voucher.manage2.tkmapper.mapper.FileselfbelongMapper">
+  <resultMap id="BaseResultMap" type="com.voucher.manage2.tkmapper.entity.Fileselfbelong">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="GUID" jdbcType="VARCHAR" property="guid" />
+    <result column="RoomGUID" jdbcType="VARCHAR" property="roomguid" />
+    <result column="UpFileFullName" jdbcType="VARCHAR" property="upfilefullname" />
+    <result column="FileType" jdbcType="VARCHAR" property="filetype" />
+    <result column="FileBelong" jdbcType="VARCHAR" property="filebelong" />
+    <result column="FileIndex" jdbcType="INTEGER" property="fileindex" />
+    <result column="ViewFileName" jdbcType="VARCHAR" property="viewfilename" />
+  </resultMap>
+</mapper>

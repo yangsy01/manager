@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.voucher.manage2.tkmapper.mapper.RoomchangehirelogMapper">
+  <resultMap id="BaseResultMap" type="com.voucher.manage2.tkmapper.entity.Roomchangehirelog">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="GUID" jdbcType="VARCHAR" property="guid" />
+    <result column="RoomAddress" jdbcType="VARCHAR" property="roomaddress" />
+    <result column="RoomCount" jdbcType="INTEGER" property="roomcount" />
+    <result column="Charter" jdbcType="VARCHAR" property="charter" />
+    <result column="OHire" jdbcType="DOUBLE" property="ohire" />
+    <result column="OChartCriterion" jdbcType="DOUBLE" property="ochartcriterion" />
+    <result column="Area" jdbcType="DOUBLE" property="area" />
+    <result column="NHire" jdbcType="DOUBLE" property="nhire" />
+    <result column="NChartCriterion" jdbcType="DOUBLE" property="nchartcriterion" />
+    <result column="ConcludeDate" jdbcType="TIMESTAMP" property="concludedate" />
+    <result column="Region" jdbcType="VARCHAR" property="region" />
+    <result column="ManageRegion" jdbcType="VARCHAR" property="manageregion" />
+    <result column="RoomProperty" jdbcType="VARCHAR" property="roomproperty" />
+    <result column="Useful" jdbcType="VARCHAR" property="useful" />
+    <result column="OriginalUnit" jdbcType="VARCHAR" property="originalunit" />
+    <result column="BelongUnit" jdbcType="VARCHAR" property="belongunit" />
+    <result column="OptDate" jdbcType="TIMESTAMP" property="optdate" />
+    <result column="Operator" jdbcType="VARCHAR" property="operator" />
+  </resultMap>
+</mapper>
