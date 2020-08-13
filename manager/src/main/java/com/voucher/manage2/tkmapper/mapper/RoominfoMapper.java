@@ -8,6 +8,8 @@ import com.voucher.manage2.dto.KeyVCountDTO;
 import com.voucher.manage2.dto.RoomInfoDTO;
 import com.voucher.manage2.dto.details.TopMessage;
 import com.voucher.manage2.dto.roomInfo.AddressAndHireDTO;
+import com.voucher.manage2.dto.roomInfo.DataList;
+import com.voucher.manage2.dto.roomInfo.DataNumberDto;
 import com.voucher.manage2.dto.roomInfo.RoomInfoDto;
 import com.voucher.manage2.tkmapper.entity.Chartinfo;
 import com.voucher.manage2.tkmapper.entity.HiddenCheck;
@@ -303,4 +305,10 @@ public interface RoominfoMapper extends Mapper<Roominfo>, InsertListMapper<Roomi
 
     @Select(" SELECT count(*) from (select chartGUID from RoomInfo where State='已出租' and ValidState=0 GROUP BY ChartGUID) chartG LEFT JOIN ChartInfo CI on chartG.ChartGUID = CI.guid WHERE CI.IsHistory=0 ")
     Integer findCountChart();
+
+    /**
+     * 查询资产数量
+     */
+    @Select("select InDate, count(*) as number from RoomInfo where InDate is not null GROUP BY InDate")
+    List<DataList> dataNumber();
 }

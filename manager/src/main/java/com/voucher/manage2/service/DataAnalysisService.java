@@ -19,5 +19,4 @@ public interface DataAnalysisService {
     String notDgRateBar(String name,String column, List<String> list);
     String HavingRateBar(String name,String column, List<String> list);
     String yinHuanRateBar(String name,String column, List<String> list);
-
 }

@@ -1,9 +1,5 @@
 package com.voucher.manage2.aop.interceptor;
 
-import cn.hutool.http.HttpUtil;
-import org.aspectj.lang.annotation.Aspect;
-import org.springframework.http.HttpStatus;
-import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -17,26 +13,25 @@ import javax.servlet.http.HttpServletResponse;
  */
 public class ProcessInterceptor implements HandlerInterceptor {
 
-
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
         //允许任何跨域请求
         httpServletResponse.setHeader("Access-Control-Allow-Origin", "*");
-
-        //httpServletResponse.setHeader("Access-Control-Allow-Headers", "Content-Type,content-type,Content-Length, Authorization, Accept,X-Requested-With,X-Token");
         httpServletResponse.setHeader("Access-Control-Allow-Headers", "*");
-        //
         httpServletResponse.setHeader("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS");
-
         httpServletResponse.setHeader("Access-Control-Allow-Credentials", "true");
-        //httpServletResponse.setHeader("X-Powered-By","Jetty");
 
-        //请求类型
-        if (httpServletRequest.getMethod().equals("OPTIONS")) {
-            httpServletResponse.setStatus(200);
+        String url=httpServletRequest.getRequestURI();
+        if(url.indexOf("/login") >=0){
+            return true;
+        }
+        //从请求头获取
+        String token=httpServletRequest.getHeader("token");
+        if(token !=null && token !=""){
+            return true;
+        }else{
             return false;
         }
-        return true;
     }
 
     @Override

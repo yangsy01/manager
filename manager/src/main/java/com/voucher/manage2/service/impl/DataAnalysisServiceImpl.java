@@ -1,6 +1,9 @@
 package com.voucher.manage2.service.impl;
 
 import com.voucher.manage2.dto.KeyObjDTO;
+import com.voucher.manage2.dto.roomInfo.DataList;
+import com.voucher.manage2.dto.roomInfo.DataNumber;
+import com.voucher.manage2.dto.roomInfo.DataNumberDto;
 import com.voucher.manage2.service.DataAnalysisService;
 import com.voucher.manage2.tkmapper.mapper.ChartinfoMapper;
 import com.voucher.manage2.tkmapper.mapper.HiddenCheckMapper;
@@ -28,7 +31,7 @@ public class DataAnalysisServiceImpl implements DataAnalysisService {
 
     @Override
     public String findCountBar(String name, String column, List<String> requestList) {
-        int x = Integer.parseInt(column);   //同列
+        /*int x = Integer.parseInt(column);   //同列
         List<Date> dates = roominfoMapper.findDate();
         List<String> list = returnList(dates);
         //将所有的年+月存入到不重复newList中
@@ -46,8 +49,31 @@ public class DataAnalysisServiceImpl implements DataAnalysisService {
         }
         KeyObjDTO k1 = new KeyObjDTO();
         k1.setName("资产数量");
-        HashMap<Object, Object> map = HistogramUtils.returnMap(x, list1, allMonth, k1, "资产数量");
-        return JSONObject.fromObject(map).toString();
+        HashMap<Object, Object> map = HistogramUtils.returnMap(x, list1, allMonth, k1, "资产数量");*/
+
+        List<DataList> dataList=roominfoMapper.dataNumber();
+
+        DataNumberDto dataNumberDto=new DataNumberDto();
+        DataNumber dataNumber=new DataNumber();
+
+
+        List dateList=new ArrayList();
+        List numberList=new ArrayList();
+
+        for(DataList list:dataList){
+            //时间戳转时间
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+            String data = sdf.format(new Date(list.getInDate().getTime()));
+            dateList.add(data);
+            numberList.add(list.getNumber());
+
+		}
+        dataNumber.setValue(numberList);
+        dataNumberDto.setDate(dateList);
+        dataNumberDto.setData1(dataNumber);
+        dataNumberDto.setTitle("资产数量");
+
+        return JSONObject.fromObject(dataNumberDto).toString();
     }
 
     @Override
